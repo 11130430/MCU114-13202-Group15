@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnAiOptimize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="✨ AI 智能路徑優化"
+        android:backgroundTint="#6200EE" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPlan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

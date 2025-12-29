@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="首頁" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/pngtreesearchiconimage1344447"
+        android:title="搜尋" />
+
+    <item
+        android:id="@+id/navigation_plan"
+        android:icon="@drawable/travel"
+        android:title="行程" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/profile"
+        android:title="個人資料" />
+
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@drawable/images"
+        android:title="回饋" />
+</menu>
